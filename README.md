@@ -18,7 +18,7 @@
 - DB 접속 및 SQL에 필요한 `properties` 파일은 <i>**resources**</i> 폴더를 만들어 이곳에 보관 (`.gitignore`에 추가하기)
 
 ### sample DB
-```
+```ruby
 CREATE TABLE MEMBER (
   USERID VARCHAR2(15) PRIMARY KEY, 
   PASSWORD VARCHAR2(15) NOT NULL, 
